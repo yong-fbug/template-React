@@ -1,0 +1,25 @@
+my-app/
+├── client/                 # Front-end (React + Vite)
+│   ├── node_modules/       # Dependencies for the front-end
+│   ├── public/             # Static files
+│   ├── src/                # Source files for the front-end
+│   │   ├── assets/         # Images, styles, etc.
+│   │   ├── components/     # React components
+|   |   ├── pages/          # React Pages (Home, About, etc)
+│   │   ├── App.jsx         # Main React component
+│   │   ├── index.js        # Entry point
+│   ├── .gitignore          # Git ignore for client
+│   ├── package.json        # Client-specific dependencies and scripts
+│   └── vite.config.js      # Vite config file
+├── server/                 # Back-end (Express + MySQL)
+│   ├── node_modules/       # Dependencies for the back-end
+│   ├── src/                # Server-side code
+│   │   ├── config/         # Database or app configuration
+│   │   ├── controllers/    # Route handlers
+│   │   ├── models/         # MySQL models
+│   │   ├── routes/         # API route definitions
+│   │   ├── server.js       # Main server file
+│   ├── .gitignore          # Git ignore for server
+│   ├── package.json        # Server-specific dependencies and scripts
+├── package.json            # Root package.json (to manage both client and server)
+└── README.md               # Project description
