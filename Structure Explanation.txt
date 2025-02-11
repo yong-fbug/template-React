@@ -1,3 +1,5 @@
+my-app> npm start (to start the client and server)
+
 my-app/
 ├── client/                 # Front-end (React + Vite)
 │   ├── node_modules/       # Dependencies for the front-end
